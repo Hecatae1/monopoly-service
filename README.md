@@ -2,7 +2,7 @@
 
 This is the data service application for the
 [CS 262 sample Monopoly project](https://github.com/calvin-cs262-organization/monopoly-project),
- which is deployed here:
+ which is deployed here: (my link) <https://monopoly-service-fwb0djd9etgre8cr.mexicocentral-01.azurewebsites.net/>
 
 - <https://cs262-egbefbd4aae2h0df.canadacentral-01.azurewebsites.net><br>(This URL may vary from year to year.)
 
