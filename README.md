@@ -2,9 +2,10 @@
 
 This is the data service application for the
 [CS 262 sample Monopoly project](https://github.com/calvin-cs262-organization/monopoly-project),
- which is deployed here: (my link) <https://monopoly-service-fwb0djd9etgre8cr.mexicocentral-01.azurewebsites.net/>
+ which is deployed here: (my link) https://github.com/Hecatae1/monopoly-service
 
-- <https://cs262-egbefbd4aae2h0df.canadacentral-01.azurewebsites.net><br>(This URL may vary from year to year.)
+
+- <https://monopoly-service-fwb0djd9etgre8cr.mexicocentral-01.azurewebsites.net/><br>(This URL may vary from year to year.)
 
 Based on this URL, the service implements the following endpoints:
 
