@@ -81,7 +81,7 @@ app.use((err: Error, _req: Request, res: Response, _next: NextFunction): void =>
 
     // Send generic error to client (never expose internal details)
     res.status(500).json({
-        error: 'An internal server error occurred'
+        error: 'An internal server error occurred!'
     });
 });
 
