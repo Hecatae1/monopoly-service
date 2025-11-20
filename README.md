@@ -2,8 +2,7 @@
 
 This is the data service application for the
 [CS 262 sample Monopoly project](https://github.com/calvin-cs262-organization/monopoly-project),
- which is deployed here: (my link) https://github.com/Hecatae1/monopoly-service
-
+ which is deployed here: (my link) <https://github.com/Hecatae1/monopoly-service>
 
 - <https://monopoly-service-fwb0djd9etgre8cr.mexicocentral-01.azurewebsites.net/><br>(This URL may vary from year to year.)
 
@@ -12,7 +11,8 @@ Based on this URL, the service implements the following endpoints:
 - `/` &mdash; a hello message
 - `/players` &mdash; the full list of players
 - `/players/:id` &mdash; the single player with the given ID (e.g., `/players/1`)
-
+- `/games`; list of games
+- `/games/:id` games with it primary key id
 Also, it gives the following responses:
 
 - `/players/-1` &mdash; all invalid IDs like this one return a not-found error
