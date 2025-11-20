@@ -36,6 +36,7 @@ const pgp = pgPromise();
 
 // Import types
 import type { Player } from './player.js';
+import type { Game } from './game.js';
 
 // Set up the database connection.
 const database = pgp({
@@ -52,6 +53,13 @@ const database = pgp({
 database.manyOrNone('SELECT * FROM Player')
     .then((data: Player[]): void => {
         console.log(data);
+    })
+    .catch((error: Error): void => {
+        console.log('ERROR:', error);
+    });
+database.manyOrNone('SELECT * FROM Game')
+    .then((data: Game[]): void => {
+        console.log('Games:', data);
     })
     .catch((error: Error): void => {
         console.log('ERROR:', error);
